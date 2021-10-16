@@ -225,7 +225,7 @@ bindsym $mod+Home           workspace $ws1
 bindsym $mod+Shift+Home     Move container to workspace $ws1
 
 # Set NumLock
-exec --no-startup-id xdotool key --clearmodifiers Num_Lock
+# exec --no-startup-id xdotool key --clearmodifiers Num_Lock
 
 # Start background apps
 # Google Drive sync with insync
@@ -237,8 +237,8 @@ exec --no-startup-id onedrive --monitor
 # color change for battery drain
 exec sudo bash -c "echo 100000 > /proc/sys/fs/inotify/max_user_watches"
 # compositor for screen affects
-exec --no-startup-id picom -b
+# exec --no-startup-id picom -b
 # Set wallpaper
-exec_always feh --bg-scale  /usr/share/backgrounds/archlinux/archwave.png
+# exec_always feh --bg-scale  /usr/share/backgrounds/archlinux/archwave.png
 # Start Shell
 exec alacritty

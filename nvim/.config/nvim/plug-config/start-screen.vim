@@ -11,9 +11,9 @@ let g:startify_bookmarks = [
             \ { 'c': '~/.config/i3/config' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'z': '~/.zshrc' },
-            \ '~/Projects/StockCount',
-            \ '~/Projects/r365cleaner',
-            \ '~/Projects/RecipeLink',
+            \ { 's': '~/Projects/StockCount' },
+            \ { 'm': '~/Projects/r365cleaner' },
+            \ { 'r': '~/Projects/RecipeLink' },
             \ ]
 
 let g:startify_session_autoload = 1
