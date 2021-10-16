@@ -1,0 +1,62 @@
+Xcursor.theme:      pSlackware-24
+
+! special
+urxvt.transparent:  false
+urxvt.foreground:   #93a1a1
+!urxvt.background:   #002b36
+urxvt.depth:        32
+urxvt.background:   rgba:0000/0000/1111/dddd
+urxvt.cursorColor:  #93a1a1
+!urxvt.cursorColor:      magenta
+
+! black
+urxvt.color0:       #002b36
+urxvt.color8:       #657b83
+
+! red
+urxvt.color1:       #dc322f
+urxvt.color9:       #dc322f
+
+! green
+urxvt.color2:       #859900
+urxvt.color10:      #859900
+
+! yellow
+urxvt.color3:       #b58900
+urxvt.color11:      #b58900
+
+! blue
+urxvt.color4:       #268bd2
+urxvt.color12:      #268bd2
+
+! magenta
+urxvt.color5:       #6c71c4
+urxvt.color13:      #6c71c4
+
+! cyan
+urxvt.color6:       #2aa198
+urxvt.color14:      #2aa198
+
+! white
+urxvt.color7:       #93a1a1
+urxvt.color15:      #fdf6e3
+
+urxvt.intensityStyles:  false
+urxvt.font:             xft:SFMono:style=Regular:size=13
+urxvt.scrollBar:        false
+
+! extensions
+urxvt.perl-ext-common:  default.matcher,resize-font,url-select,keyboard-select
+urxvt.colorUL:          #4682b4
+! url-select
+urxvt.keysym.M-u:       perl:url-select:select_next
+urxvt.url-select.launcher: /usr/bin/xdg-open
+urxvt.url-select.underline: true
+! keyboard-select
+urxvt.keysym.M-Escape:  perl:keyboard-select:activate
+! resize-font
+urxvt.resize-font.smaller:  C-j
+urxvt.resize-font.bigger:   C-k
+! matcher
+urxvt.url-launcher:     /usr/bin/xdg-open
+urxvt.matcher.button:   1
