@@ -11,15 +11,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " vifm file explorer
-    Plug 'vifm/vifm.vim'
+    " Plug 'vifm/vifm.vim'
     " code completion
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Fuzzy Finder
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+    Plug 'junegunn/gv.vim'
     Plug 'airblade/vim-rooter'
     " Code snippets
     Plug 'SirVer/ultisnips'
+    Plug 'quangnguyen30192/cmp-nvim-ultisnips'
     " used with ultisnips
     Plug 'honza/vim-snippets'
     " Add color to csv files
@@ -44,22 +46,28 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vim-which-key'
     " Better Comments
     Plug 'tpope/vim-commentary'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
     " Markdown Preview
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
     " Ranger
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     " Git experience
     Plug 'mhinz/vim-signify'
-    Plug 'tpope/vim-fugitive'
-    Plug 'tpope/vim-rhubarb'
-    Plug 'junegunn/gv.vim'
     Plug 'justinmk/vim-sneak'
     Plug 'unblevable/quick-scope'
-
+    " Telescope
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-telescope/telescope.nvim'
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'williamboman/nvim-lsp-installer'
+    Plug 'hrsh7th/cmp-nvim-lsp'
+    Plug 'hrsh7th/cmp-buffer'
+    Plug 'hrsh7th/nvim-cmp'
 
 call plug#end()
 
-" colorscheme gruvbox
+colorscheme gruvbox
 
 " Automatically install missing plugins on startup
 autocmd VimEnter *

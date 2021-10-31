@@ -13,6 +13,24 @@ alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/p
 alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
 
+# ls aliases
+alias ls='ls --color=auto'
+alias ll='ls -lh --color=auto --group-directories-first'
+alias la='ls -alh --color=auto --group-directories-first'
+alias lt='ls -lth --color=auto'
+
+# program aliases
+alias v='nvim'
+alias vi='nvim'
+alias vim='nvim'
+alias venv='source .venv/bin/activate'
+alias c='clear'
+
+# Network aliases
+alias mycloud='sudo mount -t cifs //192.168.10.14/Public -o credentials=/etc/samba/user.cred /mnt/mycloud'
+alias plex='sudo mount -t cifs //192.168.10.100/smbShare -o credentials=/home/wandored/.smbcredentials.txt /mnt/plex'
+alias wandored='sudo mount -t cifs //192.168.10.100/wandored -o credentials=/home/wandored/.smbcredentials.txt /mnt/wandored'
+
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'

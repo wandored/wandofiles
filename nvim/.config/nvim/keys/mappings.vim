@@ -34,6 +34,12 @@ inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 vnoremap < <gv
 vnoremap > >gv
 
+" Find files using Telescope command-line sugar.
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
 " Better window navigation
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
@@ -45,7 +51,7 @@ nnoremap <Leader>O O<Esc>^Da
 nmap <F6> :NERDTreeToggle<CR>
 
 " Activate Vifm file explorer
-map <C-n> :EditVifm .<CR>
+" map <C-n> :EditVifm .<CR>
 " Source this file
 " map <C-s> :source ~/.config/nvim/init.vim<CR>
 " Quickly change colorscheme

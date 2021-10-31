@@ -8,9 +8,9 @@ let g:startify_lists = [
           \ ]
 
 let g:startify_bookmarks = [
-            \ { 'c': '~/.config/i3/config' },
-            \ { 'i': '~/.config/nvim/init.vim' },
-            \ { 'z': '~/.zshrc' },
+            \ { 'i': '~/Wandofiles/i3/.config/i3/config' },
+            \ { 'n': '~/Wandofiles/nvim/.config/nvim/init.vim' },
+            \ { 'z': '~/Wandofiles/zsh/.config/zsh/.zshrc' },
             \ { 's': '~/Projects/StockCount' },
             \ { 'm': '~/Projects/r365cleaner' },
             \ { 'r': '~/Projects/RecipeLink' },
