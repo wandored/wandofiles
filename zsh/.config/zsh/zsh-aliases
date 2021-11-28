@@ -25,6 +25,7 @@ alias vi='nvim'
 alias vim='nvim'
 alias venv='source .venv/bin/activate'
 alias c='clear'
+alias wallpaper='feh --bg-scale  --randomize /usr/share/backgrounds/archlinux/* &'
 
 # Network aliases
 alias mycloud='sudo mount -t cifs //192.168.10.14/Public -o credentials=/etc/samba/user.cred /mnt/mycloud'

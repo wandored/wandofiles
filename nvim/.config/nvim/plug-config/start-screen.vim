@@ -14,6 +14,7 @@ let g:startify_bookmarks = [
             \ { 's': '~/Projects/StockCount' },
             \ { 'm': '~/Projects/r365cleaner' },
             \ { 'r': '~/Projects/RecipeLink' },
+            \ { 'd': '~/Projects/Dashboard' },
             \ ]
 
 let g:startify_session_autoload = 1
